@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projects — Fiona Muntwyler" />
+  <title>Projects — Fiona Muntwyler</title>
+ 
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bg:          '#0F0F0F',
+            'bg-card':   '#161614',
+            'bg-hover':  '#1E1E1B',
+            accent:      '#C8A96E',
+            'accent-light': '#E8C87A',
+            'text-primary': '#E8E0D0',
+            'text-muted':   '#7A7060',
+            'border-subtle':'#242420',
+          },
+          fontFamily: {
+            display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            mono:    ['"IBM Plex Mono"', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+ 
+</head>
+
+<body class="bg-bg text-text-primary font-mono min-h-screen">
+ 
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav class="fixed top-0 w-full z-50">
+    <div class="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
+      <a href="/" class="nav-name">Fiona Muntwyler</a>
+      <div class="flex items-center gap-8">
+        <a href="/#about">about</a>
+        <a href="/projects/" class="nav-active">projects</a>
+        <a href="/work/">work</a>
+        <a href="/#links">links</a>
+      </div>
+    </div>
+  </nav>
+ 
+ 
+  <!-- ===================== PAGE HEADER ===================== -->
+  <header class="max-w-5xl mx-auto px-6 pt-40 pb-16 fade-in">
+    <p class="section-label mb-4">Selected work</p>
+    <h1 class="font-display font-light" style="font-size: clamp(2.5rem, 6vw, 4.5rem); line-height: 1.1;">
+      Projects
+    </h1> 
+    <p class="mt-4" style="font-size: 0.85rem; color: var(--text-muted); max-width: 50ch; line-height: 1.8;">
+      A selection of things I've built — ranging from research projects to
+      side experiments. More on <a href="https://github.com/fimunty" target="_blank"
+      style="color: var(--accent); text-decoration: none;">GitHub ↗</a>.
+    </p>
+  </header>
+ 
+ 
+  <!-- ===================== PROJECT GRID ===================== -->
+  <main class="max-w-5xl mx-auto px-6 pb-24">
+ 
+    <!-- Thin divider -->
+    <div class="section-divider mb-12"></div>
+ 
+    <h1 class="font-display font-light" style="font-size: clamp(1.5rem, 4vw, 2.5rem); line-height: 1.1;">
+      Coming Soon...
+    </h1> 
+    <p class="mt-4" style="font-size: 1.5rem; color: var(--text-muted); max-width: 50ch; line-height: 1.8;">
+      Under construction. Check back for updates.
+    </p>
+
+  </main>
+ 
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="max-w-5xl mx-auto px-6 py-8 section-divider">
+    <div class="flex flex-wrap justify-between items-center gap-4">
+      <p style="font-size: 0.7rem; color: var(--text-muted);">
+        © 2026 Fiona Muntwyler
+      </p>
+      <a href="/" style="font-size: 0.7rem; color: var(--text-muted); text-decoration: none; transition: color 0.2s;"
+         onmouseover="this.style.color='var(--accent)'"
+         onmouseout="this.style.color='var(--text-muted)'">
+        ← Back home
+      </a>
+    </div>
+  </footer>
+ 
+</body>
+</html>
